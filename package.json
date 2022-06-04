@@ -1,0 +1,29 @@
+{
+  "name": "mac-simple-setup",
+  "version": "0.0.1",
+  "description": "Simplify install process with mac-simple-setup.",
+  "type": "module",
+  "main": "./src/cli.js",
+  "bin": {
+    "mac-simple-setup": "./src/cli.js"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "node ./src/cli.js"
+  },
+  "devDependencies": {
+    "@drewster/eslint-config": "5.0.3",
+    "compare-versions": "^4.1.3",
+    "eslint": "8.17.0",
+    "fsxx": "^0.1.0",
+    "ora": "^6.1.0",
+    "shelljs": "^0.8.5",
+    "zx": "^6.2.1"
+  },
+  "dependencies": {
+    "commander": "^9.3.0"
+  }
+}
