@@ -85,6 +85,20 @@ async function installHttpServer() {
   }
 }
 
+async function installJq() {
+  const installed = await whichInstalled('jq')
+  if (installed) {
+    return
+  }
+
+  try {
+    await promisifyExec(`brew install jq`)
+    collect.setInstalled('jq')
+  } catch (error) {
+    collect.setFailed('jq')
+  }
+}
+
 async function installZx() {
   const installed = await whichInstalled('zx')
   if (installed) {
@@ -139,6 +153,12 @@ misc.add({
   name: 'http-server',
   desc: 'http-server <path to folder>',
   install: installHttpServer,
+})
+
+misc.add({
+  name: 'jq',
+  desc: 'jq <filter>',
+  install: installJq,
 })
 
 function listAllMisc() {

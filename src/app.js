@@ -16,6 +16,7 @@ const apps = [
   { brewName: 'docker', appName: 'Docker.app' },
   { brewName: 'raycast', appName: 'Raycast.app' },
   { brewName: 'tweeten', appName: 'Tweeten.app' },
+  { brewName: 'yippy', appName: 'Yippy.app' },
 ]
 
 async function checkAppInstalledByBrew(app) {
