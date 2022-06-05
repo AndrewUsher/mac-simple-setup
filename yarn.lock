@@ -1434,7 +1434,7 @@ node-domexception@^1.0.0:
   resolved "https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^3.2.4:
+node-fetch@^3.2.4, node-fetch@^3.2.5:
   version "3.2.5"
   resolved "https://registry.npmmirror.com/node-fetch/-/node-fetch-3.2.5.tgz#7d31da657804db5185540ddac7ddd516a9a2bd26"
   integrity sha512-u7zCHdJp8JXBwF09mMfo2CL6kp37TslDl1KP3hRGTlCInBtag+UO3LGVy+NF0VzvnL3PVMpA2hXh1EtECFnyhQ==
@@ -2028,10 +2028,10 @@ yaml@^2.1.1:
   resolved "https://registry.npmmirror.com/yaml/-/yaml-2.1.1.tgz#1e06fb4ca46e60d9da07e4f786ea370ed3c3cfec"
   integrity sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==
 
-zx@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.npmmirror.com/zx/-/zx-6.2.0.tgz#9688d6ba361e436094487f315713eba1a647b2eb"
-  integrity sha512-g7M/j+Jgw0XVpuX0VyW5vHctU/G7Q2/xb0yysyaTS37Iv39s9Fxn1QvLePVt/QnQSkfNPqeYzsqST1+sRG5Jaw==
+zx@6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/zx/-/zx-6.2.3.tgz#3f8fdc392f4fa05eb94c5d6ea0a93a2520396154"
+  integrity sha512-KROw4oYCPBXDQn5N1XAaf9UmM5g6UBTjSOGv1JDvU+T0bxcKDlRR4KzLykyjnfRqy4VPX4wRYBO3A7TenDczsA==
   dependencies:
     "@types/fs-extra" "^9.0.13"
     "@types/minimist" "^1.2.2"
@@ -2043,15 +2043,15 @@ zx@^6.1.0:
     globby "^13.1.1"
     ignore "^5.2.0"
     minimist "^1.2.6"
-    node-fetch "^3.2.4"
+    node-fetch "^3.2.5"
     ps-tree "^1.2.0"
     which "^2.0.2"
     yaml "^2.1.1"
 
-zx@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/zx/-/zx-6.2.1.tgz#1a4d86993e91b77e2b015b578d475fbe4fc47091"
-  integrity sha512-GMm0/fCGbeHGCudS19o8IPoW7AKH55lKoDa1snsh3iAcUVsg1pCs7V9d070SCLr2QqMG8nmIxgpIlyCTFZPWAg==
+zx@^6.1.0:
+  version "6.2.0"
+  resolved "https://registry.npmmirror.com/zx/-/zx-6.2.0.tgz#9688d6ba361e436094487f315713eba1a647b2eb"
+  integrity sha512-g7M/j+Jgw0XVpuX0VyW5vHctU/G7Q2/xb0yysyaTS37Iv39s9Fxn1QvLePVt/QnQSkfNPqeYzsqST1+sRG5Jaw==
   dependencies:
     "@types/fs-extra" "^9.0.13"
     "@types/minimist" "^1.2.2"
