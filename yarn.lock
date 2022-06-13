@@ -2028,10 +2028,10 @@ yaml@^2.1.1:
   resolved "https://registry.npmmirror.com/yaml/-/yaml-2.1.1.tgz#1e06fb4ca46e60d9da07e4f786ea370ed3c3cfec"
   integrity sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==
 
-zx@6.2.3:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/zx/-/zx-6.2.3.tgz#3f8fdc392f4fa05eb94c5d6ea0a93a2520396154"
-  integrity sha512-KROw4oYCPBXDQn5N1XAaf9UmM5g6UBTjSOGv1JDvU+T0bxcKDlRR4KzLykyjnfRqy4VPX4wRYBO3A7TenDczsA==
+zx@6.2.5:
+  version "6.2.5"
+  resolved "https://registry.yarnpkg.com/zx/-/zx-6.2.5.tgz#9a5cd2ad68275601224731aa19797004f7f9be89"
+  integrity sha512-aTEZSL8sp1IhMUhxlXRTPH6MwzcuTBA3G4LLuH68NIj8kENfcaVGV7cn8LQXXHwG1M9LDI6ST6Qcw0EOrhRAVA==
   dependencies:
     "@types/fs-extra" "^9.0.13"
     "@types/minimist" "^1.2.2"
