@@ -1068,6 +1068,17 @@ globby@^13.1.1:
     merge2 "^1.4.1"
     slash "^4.0.0"
 
+globby@^13.1.2:
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.2.tgz#29047105582427ab6eca4f905200667b056da515"
+  integrity sha512-LKSDZXToac40u8Q1PQtZihbNdTYSNMuWe+K5l+oa6KgDzSvVrHXlJy40hUP522RjAIoNLJYBJi7ow+rbFpIhHQ==
+  dependencies:
+    dir-glob "^3.0.1"
+    fast-glob "^3.2.11"
+    ignore "^5.2.0"
+    merge2 "^1.4.1"
+    slash "^4.0.0"
+
 graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.10"
   resolved "https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
@@ -1434,10 +1445,19 @@ node-domexception@^1.0.0:
   resolved "https://registry.npmmirror.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@^3.2.4, node-fetch@^3.2.5:
+node-fetch@^3.2.4:
   version "3.2.5"
   resolved "https://registry.npmmirror.com/node-fetch/-/node-fetch-3.2.5.tgz#7d31da657804db5185540ddac7ddd516a9a2bd26"
   integrity sha512-u7zCHdJp8JXBwF09mMfo2CL6kp37TslDl1KP3hRGTlCInBtag+UO3LGVy+NF0VzvnL3PVMpA2hXh1EtECFnyhQ==
+  dependencies:
+    data-uri-to-buffer "^4.0.0"
+    fetch-blob "^3.1.4"
+    formdata-polyfill "^4.0.10"
+
+node-fetch@^3.2.6:
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-3.2.6.tgz#6d4627181697a9d9674aae0d61548e0d629b31b9"
+  integrity sha512-LAy/HZnLADOVkVPubaxHDft29booGglPFDr2Hw0J1AercRh01UiVFm++KMDnJeH9sHgNB4hsXPii7Sgym/sTbw==
   dependencies:
     data-uri-to-buffer "^4.0.0"
     fetch-blob "^3.1.4"
@@ -2028,10 +2048,10 @@ yaml@^2.1.1:
   resolved "https://registry.npmmirror.com/yaml/-/yaml-2.1.1.tgz#1e06fb4ca46e60d9da07e4f786ea370ed3c3cfec"
   integrity sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==
 
-zx@6.2.5:
-  version "6.2.5"
-  resolved "https://registry.yarnpkg.com/zx/-/zx-6.2.5.tgz#9a5cd2ad68275601224731aa19797004f7f9be89"
-  integrity sha512-aTEZSL8sp1IhMUhxlXRTPH6MwzcuTBA3G4LLuH68NIj8kENfcaVGV7cn8LQXXHwG1M9LDI6ST6Qcw0EOrhRAVA==
+zx@7.0.4:
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/zx/-/zx-7.0.4.tgz#dea054523ef2a5d25fc2194739a1b02dbb45d24e"
+  integrity sha512-Z0uybYYLtL8ODx9ZOU88EKi6OLZ9ZTDRXX5igtcAsePUIseOWdACSaMxPjzgp0hqWkx0sZz/Lxs8bBSAHOsnNA==
   dependencies:
     "@types/fs-extra" "^9.0.13"
     "@types/minimist" "^1.2.2"
@@ -2040,10 +2060,9 @@ zx@6.2.5:
     "@types/which" "^2.0.1"
     chalk "^5.0.1"
     fs-extra "^10.1.0"
-    globby "^13.1.1"
-    ignore "^5.2.0"
+    globby "^13.1.2"
     minimist "^1.2.6"
-    node-fetch "^3.2.5"
+    node-fetch "^3.2.6"
     ps-tree "^1.2.0"
     which "^2.0.2"
     yaml "^2.1.1"
