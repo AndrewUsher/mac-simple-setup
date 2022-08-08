@@ -6,6 +6,8 @@ import { promisifyExec } from './utils.js'
 const oraInst = ora('installing...')
 
 const apps = [
+  { brewName: 'discord', appName: 'Discord.app' },
+  { brewName: 'drawio', appName: 'draw.io.app' },
   { brewName: 'google-chrome', appName: 'Google Chrome.app' },
   { brewName: 'lark', appName: 'Lark.app' },
   { brewName: 'visual-studio-code', appName: 'Visual Studio Code.app' },
