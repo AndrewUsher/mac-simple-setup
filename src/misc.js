@@ -85,6 +85,20 @@ async function installHttpServer() {
   }
 }
 
+async function installJLess() {
+  const installed = await whichInstalled('jless')
+  if (installed) {
+    return
+  }
+
+  try {
+    await promisifyExec(`brew install jless`)
+    collect.setInstalled('jless')
+  } catch (error) {
+    collect.setFailed('jless')
+  }
+}
+
 async function installJq() {
   const installed = await whichInstalled('jq')
   if (installed) {
@@ -153,6 +167,12 @@ misc.add({
   name: 'http-server',
   desc: 'http-server <path to folder>',
   install: installHttpServer,
+})
+
+misc.add({
+  name: 'jless',
+  desc: 'jless <path-to-json>',
+  install: installJLess,
 })
 
 misc.add({
